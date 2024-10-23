@@ -1,0 +1,5 @@
+train: C:\Users\Ram Choudhary\MetroSafetyLine\SafetyTrack\data\label\train # Path to training images
+val: C:\Users\Ram Choudhary\MetroSafetyLine\SafetyTrack\data\label\val     # Path to validation images
+
+nc: 3                        # Number of classes (people, safety line, metro train)
+names: ['people', 'safety_line', 'metro_train']  # Class names
